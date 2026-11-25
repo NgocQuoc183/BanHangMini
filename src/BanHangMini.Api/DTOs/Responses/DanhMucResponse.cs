@@ -1,0 +1,1 @@
+public record DanhMucResponse(int Id, string Ten);

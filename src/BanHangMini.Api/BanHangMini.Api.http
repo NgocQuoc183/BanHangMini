@@ -1,0 +1,21 @@
+@BanHangMini.Api_HostAddress = http://localhost:5244
+
+### Đăng ký tài khoản khách hàng
+POST {{BanHangMini.Api_HostAddress}}/api/auth/dang-ky
+Content-Type: application/json
+
+{
+  "tenDangNhap": "khachhang_moi",
+  "matKhau": "MatKhauManh_2026!"
+}
+
+### Đăng nhập
+POST {{BanHangMini.Api_HostAddress}}/api/auth/dang-nhap
+Content-Type: application/json
+
+{
+  "tenDangNhap": "khachhang_moi",
+  "matKhau": "MatKhauManh_2026!"
+}
+
+###
